@@ -2,7 +2,8 @@ import { strategy as balancer } from './balancer';
 import { strategy as contractCall } from './contract-call';
 import { strategy as ensDomainsOwned } from './ens-domains-owned';
 import { strategy as ensReverseRecord } from './ens-reverse-record';
-import { strategy as krc21BalanceOf } from './erc20-balance-of';
+import { strategy as krc20BalanceOf } from './krc20-balance-of';
+import { strategy as krc21BalanceOf } from './krc21-balance-of';
 import { strategy as erc20BalanceOf } from './erc20-balance-of';
 import { strategy as erc20BalanceOfCoeff } from './erc20-balance-of-coeff';
 import { strategy as erc20BalanceOfFixedTotal } from './erc20-balance-of-fixed-total';
@@ -112,6 +113,7 @@ export default {
   'eth-philanthropy': ethPhilanthropy,
   'ens-domains-owned': ensDomainsOwned,
   'ens-reverse-record': ensReverseRecord,
+  'krc20-balance-of': krc20BalanceOf,
   'krc21-balance-of': krc21BalanceOf,
   'erc20-balance-of': erc20BalanceOf,
   'erc20-balance-of-fixed-total': erc20BalanceOfFixedTotal,

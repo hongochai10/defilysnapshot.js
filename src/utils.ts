@@ -119,7 +119,6 @@ export async function getScores(
   space: string,
   strategies: any[],
   network: string,
-  provider: StaticJsonRpcProvider | string,
   addresses: string[],
   snapshot: number | string = 'latest'
 ) {
